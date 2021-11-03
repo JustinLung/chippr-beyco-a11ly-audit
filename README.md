@@ -1,10 +1,13 @@
 # Rapportage webtoegankelijkheid-test voor Chippr Beyco
 
-![Beyco Visual](https://media.discordapp.net/attachments/871761581590052925/905394941168078888/mockup_beyco.png?width=1428&height=1138)
+![Beyco Visual](assets/mockup.jpg)
 
 Dit document is een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschillende tests kunnen worden vergeleken.
 
-Datum webtoegankelijkheid-test: 27 oktober 2021, 28 oktober 2021, 1 november 2021,
+Datum webtoegankelijkheid-test: 
+27 oktober 2021, 
+28 oktober 2021, 
+1 november 2021,
 2 november 2021
 
 Webtoegankelijkheid-test uitgevoerd door: Justin Lung, Chaan Soekana, Armando Jubitana, Daan Korver, Daphne Zwuup & Finn van Bekkum
@@ -61,6 +64,11 @@ Student
 justin.lung@hva.nl
 Nederlands
 
+Chaan Soekana
+Student
+chaan.soekana@hva.nl
+Nederlands
+
 Daphne Zwuup
 Student
 daphne.zwuup@hva.nl
@@ -112,10 +120,44 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 
 #### Content
 
+##### Home Pagina
+
+- **Use plain language and avoid figures of speech, idioms, and complicated metaphors.**  
+  Het lees level moet level 8 zijn. De lees level in deze pagina is 11.17. Dus de lees level 
+  van de website is goed.
+- **Make sure that button, a, and label element content is unique and descriptive.**  
+  Daarom is de code van deze button is gefaald: <button type="button" class="menu-icon-container">. De class is niet duidelijk genoeg.
+- **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
+  De koppen en bodytekst zijn in de css center aligned. Alleen de tekst in de footer en in de menu is standaard left-aligned.
+
+##### Koffie Pagina
+
+- **Use plain language and avoid figures of speech, idioms, and complicated metaphors.**  
+  Het taalgebruik is duidelijk en er worden geen stijlfiguren of metaforen gebruikt.
+- **Make sure that button, a, and label element content is unique and descriptive.**  
+Sommige buttons zijn wat minder duidelijk; ‘Learn more’ geeft weinig context.
+- **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
+De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het midden. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
 #### Global code
 
-#### Keyboard
+##### Home Pagina
 
+- **Validate your HTML**  
+  De website had alleen maar een waarschuwing. De waarschuwing kan je nog een keer zien op deze link in de html validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Ftest.beyco.chippr.dev%2F
+- **Use a lang attribute on the html element.**  
+  De code voor de lang ziet er goed uit. Dit is de code van het lang attribuut van Beyco: <html lang="en-us"></html>.
+- **Provide a unique title for each page or view.**  
+  D
+
+##### Koffie Pagina
+  n.v.t.
+#### Keyboard
+##### Home Pagina
+
+##### Koffie Pagina
+- **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
+- **Check to see that keyboard focus order matches the visual layout.**
+- **
 #### Images
 
 #### Headings
@@ -290,32 +332,46 @@ Omdat beyco vaak word gebruik in landen zoals peru hebben wij ook getest op inte
 
 ### Lighthouse Desktop
 
-Dit is de huidige score van beyco zonder enige optimalisatie.
+Daan: Dit is de huidige score van de Beyco Home Pagina zonder enige optimalisatie.
 ![Lighthouse Desktop](assets/lighthouse_desktop_before.png)
 
+Justin: Dit is de huidige score van de Beyco Koffie Pagina zonder enige optimalisaite
+
+![Lighthouse Desktop](assets/lighthouse_desktop_beyco_koffie.png)
 ### Lighthouse Mobile
 
-Dit is de huidige score van beyco zonder enige optimalisatie.
+Daan: Dit is de huidige score van Beyco Home Pagina zonder enige optimalisatie.
 ![Lighthouse Mobile](assets/lighthouse_mobile_before.png)
+
+Justin: Dit is de huidige score van Beyco Koffie Pagina zonder enige optimalisatie.
+![Lighthouse Mobile](assets/lighthouse_mobile_beyco_koffie.png)
+
 
 ## Testen in de zon
 
-We hebben ook nog getest in de zon op te checken op contrast.
+We hebben ook nog getest in de zon op te checken op contrast. Op de foto is te zien dat Justin & Daan aan het testen zijn, waarbij Chaan de fotograaf was.
 ![Testen in de zon](assets/zontest.jpg)
 
 ## Fast 3G
 
-Test met Fast 3G
+Daan: Test met Fast 3G
 ![Fast 3G](assets/fast_3g.png)
+
+Justin: Test met Fast 3G
+![Fast 3G](assets/3g_fast_koffie.png)
+
 
 ## Slow 3G
 
-Test met Slow 3G
+Daan: Test met Slow 3G
 ![Slow 3G](assets/slow_3g.png)
+
+Justin: Test met Slow 3G
+![Slow 3G](assets/3g_slow_koffie.png)
 
 ## Beyco Layout
 
-![Beyco Layout](https://cdn.discordapp.com/attachments/871761581590052925/904679116270350336/test.beyco.chippr.dev_trade_offers_publiciPhone_6_7_8_1.png)
+![Beyco Layout](assets/mockup.jpg)
 
 ## Licentie
 
