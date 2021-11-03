@@ -79,6 +79,11 @@ Student
 finn.van.bekkum@hva.nl
 Nederlands
 
+Armando Jubitana
+Student
+armando.jubitana@hva.nl
+Nederlands
+
 ## Beoordelingsproces
 
 Deze beoordelings is uitgevoerd op WCAG 2.1 Niveau AA
@@ -126,6 +131,10 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - Vermijd het gebruik van het autofocus attribuut bij de iframe van de kaart. 
 - Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet zichtbaar zijn.
 - De social media logo's in de footer krijgen geen focus style bij het tabben.
+- Kleurencontrast van kleinere letterypes zijn slecht leesbaar en voldoet niet aan contrast ratio.
+  met lichtgrijs aan de voorgrond met witte achtergrond.
+
+
 
 
 ### Checklist
@@ -357,6 +366,31 @@ n.v.t.
 - **Increase text size to 200%.**
   Bij 200% Zoom gaan sommige elementen uit het beeld.
 
+
+##### Detail Pagina
+
+- **Check your content in specialized browsing modes.**
+   In hoogcontrast is nog steeds alles goede te zien de linkjes blokjes icoontjes etc.
+   
+   
+- **Increase text size to 200%.**
+   Alles is goed zichtbaar ook in hoogcontrast modes kun je nog links en blokjes van content zien. Increase text size to 200%. - Ook bij het zoomen van browser naar 200% is toch alles duidelijk te zien en is content netjes in het midden van de browser. er is geen overlapping van content.
+
+- **Double-check that good proximity between content is maintained.**
+   Doormiddel van de strawtest kun je zien dat content goed gegroepeerd is en blokjes die bij elkaar horen toch duidelijk is en de samenhang van informatie.
+
+- **Make sure color isn't the only way information is conveyed.**
+   Met Greyscale filter zijn de linkjes nog steeds te zien doormiddel van blokjes.
+
+- **Make sure instructions are not visual or audio-only.**
+   n.v.t.
+
+- **Use a simple, straightforward, and consistent layout.**
+  De pagina heeft een goede layout, goede en logische verhoudingen.
+
+
+
+
 #### Animation
 
 ##### Koffie Pagina
@@ -371,6 +405,18 @@ n.v.t.
 ##### Home Pagina
 
 n.v.t.
+
+
+##### Detail Pagina
+
+- **Animation Ensure animations are subtle and do not flash too much.**
+  Animaties zijn heel subtiel ze gaan niet snel en wekken geen irrities op.
+
+- **Provide a mechanism to pause background video.**
+  n.v.t.
+ 
+- **Make sure all animation obeys the prefers-reduced-motion media query.**
+  Animaties worden niet weergeven in een prefers-reduced-motion media query.
 
 #### Color contrast
 
@@ -418,6 +464,27 @@ n.v.t.
 - **Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).**  
   Het contrast van de focus van inputs(#61998b) die staan op bijvoorbeeld een groene achtergrond(#679d90) is slecht zictbaar. Dit geld ook voor andere achtergrond kleuren.
 
+
+##### Detail Pagina
+
+-**Check the contrast for all normal-sized text.**
+  Normal sized text bevat een contrast ratio van 2.55:1 dat is niet voldoende.
+ 
+-**Check the contrast for all large-sized text.**
+  Dik gedrukte teksten bevat een contrast ratio van 21:1 en dat voldoet.
+ 
+-**Check the contrast for all icons.**
+  Icoontjes op de detailpagina bevat een contrast ratio van 4:73:1 en dat voldoet.
+ 
+-**Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.)**
+  Ook voor de borders teksten en buttons is contrast ratio 4:73:1 en dat voldoet aan de eis van 3:0:1
+ 
+ -**Check text that overlaps images or video.**
+  n.v.t.
+ 
+ -**Check custom ::selection colors.**
+  n.v.t.
+
 #### Mobile and touch
 
 ##### Koffie Pagina
@@ -439,6 +506,25 @@ n.v.t.
 
 - **Ensure sufficient space between interactive items in order to provide a scroll area.**  
   Bij de sectie van "Search your coffees" is er niet genoeg ruimte voor de gebruiker om te scrollen. Het zou zo maar kunnen dat je perongeluk 1 van de bedrijven aanklikt waardor je weer terug moet gaan naar de vorige pagina.
+
+
+##### Detail Pagina
+
+-**Check that the site can be rotated to any orientation.**
+   De pagina kan over het algemeen goed geroteerd worden en de pagina past zich aan de grote van het scherm. 
+   Op de Iphone 12 kan hij op z'n kop niet roteren.
+   Alhoewel op de Samsung Tablet 
+   de kaart heel klein word weergeven en sommige icoontjes buiten de layout valt.
+ 
+ -**Remove horizontal scrolling**
+   De pagina kan verticaal gescrolled worden op sommige apparaten wilt het soms ook nog horizontaal bewegen.
+   Alhoewel het handig is dat horizontale scrol niet mogelijk moet zijn. Alleen verticaal.
+ 
+ -**Ensure that button and link icons can be activated with ease.**
+   Buttons en link iconen zijn goed klikbaar.
+
+ -**Ensure sufficient space between interactive items in order to provide a scroll area.**
+   Er is voldoende ruimte om te scrollen voor op de mobiel.
 
 ### Extra Tests
 
