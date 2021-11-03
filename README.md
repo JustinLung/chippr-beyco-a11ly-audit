@@ -162,11 +162,11 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het 
   
   ##### Detail Pagina
   
-  * Validate your HTML
+- **Validate your HTML.**  
 Hij geeft aan dat er geen lang attribute aanwezig is in de HTML start tag. Maar als ik zelf in de inspector kijk zie ik wel een lang attribute staan. Misschien dat lang="en-us" een ongeldige waarde is. Ook kom ik veel lege div elementen tegen in de code. 
 Verder staat er geen heading in de body element. Deze staan overigens wel in de main element. 
 
-* Avoid using the autofocus attribute.
+- **Avoid using the autofocus attribute.**
 Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de focus zomaar wordt verplaatst. Ook kan het voor mensen met een motorische handicap voor problemen zorgen, omdat het voor hen extra werk kan opleveren om vanuit het autofocusgebied naar andere locaties op de pagina te navigeren.
   
 #### Keyboard
@@ -180,10 +180,10 @@ Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de f
 - **
   
   #### Detail Pagina
-  * Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.
+ - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
 In de footer komt bij de social media logo's geen focus style zoals bij de links.
 
-* Remove invisible focusable elements.
+- **Remove invisible focusable elements.**
 Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet zichtbaar zijn.
   
 #### Images
@@ -193,13 +193,13 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
 #### Lists
   
   #### Detail Pagina
-  * Use list elements (ol, ul, and dl elements) for list content.
+ - **Use list elements (ol, ul, and dl elements) for list content.**
 In de header wordt bij de nav geen ul gebruikt en in de footer ook niet.
 
 #### Controls
   
   #### Detail Pagina
-  *  Provide a skip link and make sure that it is visible when focused.
+-  **Provide a skip link and make sure that it is visible when focused.**
 Maak gebruik van skip links voor screen readers en keyboard-only gebruikers.
   
 #### Tables
