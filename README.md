@@ -286,7 +286,7 @@ n.v.t.
 - **Provide a skip link and make sure that it is visible when focused.**
   De homepagina heeft geen skip content link.
 - **De homepagina heeft geen links die naar een nieuw tabblad of venster gaan.**
-  De 
+  De homepagina heeft geen links die naar een nieuw tabblad of venster gaan. 
 
 ##### Koffie Pagina
 - **Ensure that controls have :focus states.**
