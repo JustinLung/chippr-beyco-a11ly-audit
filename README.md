@@ -129,27 +129,25 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 #### Content
 
 ##### Home Pagina
-
 - **Use plain language and avoid figures of speech, idioms, and complicated metaphors.**  
   Het lees level moet level 8 zijn. De lees level in deze pagina is 11.17. Dus de lees level 
   van de website is goed.
 - **Make sure that button, a, and label element content is unique and descriptive.**  
-  Daarom is de code van deze button is gefaald: <button type="button" class="menu-icon-container">. De class is niet duidelijk genoeg.
+  Daarom is de code van deze button is gefaald: `<button type="button" class="menu-icon-container">`. De class is niet duidelijk genoeg.
 - **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
   De koppen en bodytekst zijn in de css center aligned. Alleen de tekst in de footer en in de menu is standaard left-aligned.
 
 ##### Koffie Pagina
-
 - **Use plain language and avoid figures of speech, idioms, and complicated metaphors.**  
   Het taalgebruik is duidelijk en er worden geen stijlfiguren of metaforen gebruikt.
 - **Make sure that button, a, and label element content is unique and descriptive.**  
 Sommige buttons zijn wat minder duidelijk; ‘Learn more’ geeft weinig context.
 - **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
 De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in het midden of uitgevuld is uitgelijnd is moeilijk te lezen. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
+
 #### Global code
 
 ##### Home Pagina
-
 - **Validate your HTML**  
   De website had alleen maar een waarschuwing. De waarschuwing kan je nog een keer zien op deze link in de html validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Ftest.beyco.chippr.dev%2F
 - **Use a lang attribute on the html element.**  
@@ -184,10 +182,7 @@ Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de f
   
 #### Keyboard
 
-  
-  
 ##### Home Pagina
-
 - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**  
   Search for coffees figures/cards zijn onduidelijk voor screenreaders. Het heeft teveel tekst waardoor het moeilijk te begrijpen op een screenreader.
 
@@ -221,7 +216,6 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
 #### Images
 
 ##### Home Pagina
-
 - **Make sure that all img elements have an alt attribute.**
   BijBeyco heeft geen alt in de foto van de map.
   Code van de afbeelding zonder alt:
@@ -234,10 +228,16 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
   De image elementen op deze pagina hebben geen alt. 
 - **For images containing text, make sure the alt description includes the image's text.**
   Bij afbeeldingen met tekst (zoals logo’s) moet de alt beschrijving ook de tekst die in de afbeelding staat bevatten.
+
 #### Headings
 
+##### Home Pagina
 - **Use heading elements to introduce content.**
-  B
+  De homepagina heeft headings.
+- **Use only one h1 element per page or view.**
+  Er zit alleen maar een h1 element op de homepagina.
+- **Heading elements should be written in a logical sequence.**
+  De headings hebben geen logische volgorde. De kleine kopjes in de "How does it work?" gedeelte zijn h4 in plaats van h3.
 
 ##### Koffie Pagina
 - **Use heading elements to introduce content.**
@@ -251,6 +251,9 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
 
 #### Lists
   
+  ##### Home Pagina
+  n.v.t.
+
   #### Detail Pagina
  - **Use list elements (ol, ul, and dl elements) for list content.**
 In de header wordt bij de nav geen ul gebruikt en in de footer ook niet.
@@ -259,6 +262,18 @@ In de header wordt bij de nav geen ul gebruikt en in de footer ook niet.
 n.v.t.
 
 #### Controls
+
+##### Home Pagina
+- **Use the a element for links.**
+  De links van de homepagina hebben allemaal een a href.
+- **Ensure that controls have :focus states.**
+  Alleen de social media links in de footer hebben geen focus state.
+- **Use the button element for buttons.**
+  De knoppen hebben een button element. Maar zijn niet duidelijk beschreven voor de screenreaders.
+- **Provide a skip link and make sure that it is visible when focused.**
+  De homepagina heeft geen skip content link.
+- **De homepagina heeft geen links die naar een nieuw tabblad of venster gaan.**
+  De 
 
 ##### Koffie Pagina
 - **Ensure that controls have :focus states.**
@@ -273,7 +288,7 @@ n.v.t.
 Maak gebruik van skip links voor screen readers en keyboard-only gebruikers.
   
 #### Tables
-
+n.v.t.
 #### Forms
 
 ##### Koffie Pagina
