@@ -160,9 +160,10 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het 
 ##### Koffie Pagina
   n.v.t.
   
-  ##### Detail Pagina
+##### Detail Pagina
   
 - **Validate your HTML.**  
+  
 Hij geeft aan dat er geen lang attribute aanwezig is in de HTML start tag. Maar als ik zelf in de inspector kijk zie ik wel een lang attribute staan. Misschien dat lang="en-us" een ongeldige waarde is. Ook kom ik veel lege div elementen tegen in de code. 
 Verder staat er geen heading in de body element. Deze staan overigens wel in de main element. 
 
@@ -179,11 +180,13 @@ Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de f
 - **Check to see that keyboard focus order matches the visual layout.**
 - **
   
-  #### Detail Pagina
+#### Detail Pagina
  - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
+  
 In de footer komt bij de social media logo's geen focus style zoals bij de links.
 
 - **Remove invisible focusable elements.**
+  
 Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet zichtbaar zijn.
   
 #### Images
