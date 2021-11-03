@@ -114,7 +114,7 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - De inhoud van een button is niet uniek en beschrijvend.
 - Social icons hebben geen goede benaming voor de focus.
 - Sommige elementen hebben geen zichtbare focusstijl
-- Sommige headings hebben geen logische volgorde.
+- Sla geen heading levels over.
 
 ### Koffie Pagina
 
@@ -240,8 +240,8 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
   De homepagina heeft headings.
 - **Use only one h1 element per page or view.**
   Er zit alleen maar een h1 element op de homepagina.
-- **Heading elements should be written in a logical sequence.**
-  De headings hebben geen logische volgorde. De kleine kopjes in de "How does it work?" gedeelte zijn h4 in plaats van h3.
+- **Don't skip heading levels.**
+  De kleine kopjes in de "How does it work?" gedeelte zijn h4 in plaats van h3.
 
 ##### Koffie Pagina
 - **Use heading elements to introduce content.**
