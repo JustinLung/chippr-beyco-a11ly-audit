@@ -137,7 +137,7 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - **Make sure that button, a, and label element content is unique and descriptive.**  
 Sommige buttons zijn wat minder duidelijk; ‘Learn more’ geeft weinig context.
 - **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
-De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het midden. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
+De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in het midden of uitgevuld is uitgelijnd is moeilijk te lezen. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
 #### Global code
 
 ##### Home Pagina
@@ -147,25 +147,93 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het 
 - **Use a lang attribute on the html element.**  
   De code voor de lang ziet er goed uit. Dit is de code van het lang attribuut van Beyco: <html lang="en-us"></html>.
 - **Provide a unique title for each page or view.**  
-  D
+  De titel van de homepagina is goed vernoemd. De titel van de homepagina is: Worldwide Coffee Trading Platform - Beyco.
+- **Ensure that viewport zoom is not disabled.**  
+  De viewport van de website is niet uitgeschakeld.
+  Hier is de code van de viewport: <meta name="viewport" content="width=device-width,initial-scale=1">
+- **Use landmark elements to indicate important content regions.**  
+  De homepagina heeft geen main met sections daarin. Ze hebben in plaats daarvan alleen divs gebruikt. In plaats van de main hebben ze een div gebruikt met de id root en daarin andere divs gezet.
 
+  Ze hebben wel een header met daarin een nav en onderin een footer.
+- **Ensure a linear content flow.**  
+  De homepagina heeft geen tabindex. Dus dit is niet bij hun van toepassing.
+- **Avoid using the autofocus attribute.**  
+  Beyco heeft geen autofocus gebruikt. Dus dit is niet bij hun van toepassing.
+- **Remove title attribute tooltips.**  
+  Beyco heeft geen extra titles. Dus dit is niet bij hun van toepassing.
+  
 ##### Koffie Pagina
   n.v.t.
 #### Keyboard
+
 ##### Home Pagina
 
+- **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**  
+  Search for coffees figures/cards zijn onduidelijk voor screenreaders. Het heeft teveel tekst waardoor het moeilijk te begrijpen op een screenreader.
+
+  Social icons hebben geen goede benaming voor de focus.
+  Hier zijn de gefaalde elementen:
+```html
+<a class="interactive interactive-link layout layout-row gap-small align-cross-center" href="/">
+<a href="https://www.instagram.com/beyco.nl/">
+<a href="https://www.linkedin.com/company/beyco-nl/">
+```
+- **Check to see that keyboard focus order matches the visual layout.**  
+  Je kan makkelijk de tab toets op het toetsenbord gebruiken om naar interactieve elementen te gaan. Alle elementen zitten in de juiste volgorde.
+  
 ##### Koffie Pagina
 - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
+  Bij de interactieve elementen is er een focus state.
 - **Check to see that keyboard focus order matches the visual layout.**
-- **
+  De focus state past binnen de huisstijl.
+- **Remove invisible focusable elements.** 
+  Helaas zijn niet alle dropdown menu’s navigeerbaar met toetsenbord en zijn er onzichtbare knoppen aanwezig.
+
 #### Images
 
+##### Home Pagina
+
+- **Make sure that all img elements have an alt attribute.**
+  BijBeyco heeft geen alt in de foto van de map.
+  Code van de afbeelding zonder alt:
+```html
+<img src="/static/media/fake-map.2863d4ee.png" alt="" width="100%">`
+```
+
+##### Koffie Pagina
+- **Make sure that all img elements have an alt attribute.**
+  De image elementen op deze pagina hebben geen alt. 
+- **For images containing text, make sure the alt description includes the image's text.**
+  Bij afbeeldingen met tekst (zoals logo’s) moet de alt beschrijving ook de tekst die in de afbeelding staat bevatten.
 #### Headings
+
+- **Use heading elements to introduce content.**
+  B
+
+##### Koffie Pagina
+- **Use heading elements to introduce content.**
+  Headings worden goed gebruikt om content de introduceren. 
+- **Use only one h1 element per page or view.**
+  Er is maar 1 h1 element gebruikt op de pagina.
+- **Heading elements should be written in a logical sequence.**
+  De headings staan in een logische volgorde.
+- **Don't skip heading levels.**
+  Er worden geen heading niveaus overgeslagen.
 
 #### Lists
 
+##### Koffie Pagina
+n.v.t.
+
 #### Controls
 
+##### Koffie Pagina
+- **Ensure that controls have :focus states.**
+  De social media icons in de footer hebben geen focus state.
+- **Use the button element for buttons.**
+  Buttons gebruiken wel een button element maar hebben geen toegankelijke beschrijving voor screenreaders.
+- **Provide a skip link and make sure that it is visible when focused.**
+  Er is geen skip link aanwezig. Met deze hyperlinks – meestal onzichtbaar voor de gemiddelde gebruiker – kunnen gebruikers van een screenreader delen van de pagina overslaan (vandaar ‘skip’) en direct navigeren naar waar bv. het hoofdmenu, de zoekfunctie of juist de content begint.
 #### Tables
 
 #### Forms
