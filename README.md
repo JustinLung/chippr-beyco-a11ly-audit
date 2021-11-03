@@ -111,6 +111,10 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - Het contrast van de groene en witte/grijze kleur is niet goed genoeg.
 - Op kleinere telefoons zoals Iphone 5 is er aan de rechterkant witruimte die zich over de hele lengte van de site verspreid.
 - Bij de sectie van "Search your coffees" is er niet genoeg ruimte voor de gebruiker om te scrollen. Het zou zo maar kunnen dat je perongeluk 1 van de bedrijven aanklikt waardor je weer terug moet gaan naar de vorige pagina.
+- De inhoud van een button is niet uniek en beschrijvend.
+- Social icons hebben geen goede benaming voor de focus.
+- Sommige elementen hebben geen zichtbare focusstijl
+- Sommige headings hebben geen logische volgorde.
 
 ### Koffie Pagina
 
