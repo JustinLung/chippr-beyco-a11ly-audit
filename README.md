@@ -116,6 +116,14 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 
 - Na het invoeren van een input veld, krijg je een error message te zien. Deze error message wordt alleen met tekst aangeduid. Dit kan worden verbeterd doormiddel van kleur (Een rooie kleur zou goed zijn om aan te duiden dat er geen zoekresultaten zijn). Hierdoor verbeterd de accessibility voor mensen met een beperking ook.
 
+### Detail Pagina
+
+- In de code staan veel lege div elementen.
+- Vermijd het gebruik van het autofocus attribuut bij de iframe van de kaart. 
+- Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet zichtbaar zijn.
+- De social media logo's in de footer krijgen geen focus style bij het tabben.
+
+
 ### Checklist
 
 #### Content
@@ -151,21 +159,49 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd en niet in het 
 
 ##### Koffie Pagina
   n.v.t.
+  
+  ##### Detail Pagina
+  
+  * Validate your HTML
+Hij geeft aan dat er geen lang attribute aanwezig is in de HTML start tag. Maar als ik zelf in de inspector kijk zie ik wel een lang attribute staan. Misschien dat lang="en-us" een ongeldige waarde is. Ook kom ik veel lege div elementen tegen in de code. 
+Verder staat er geen heading in de body element. Deze staan overigens wel in de main element. 
+
+* Avoid using the autofocus attribute.
+Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de focus zomaar wordt verplaatst. Ook kan het voor mensen met een motorische handicap voor problemen zorgen, omdat het voor hen extra werk kan opleveren om vanuit het autofocusgebied naar andere locaties op de pagina te navigeren.
+  
 #### Keyboard
+  
+  
 ##### Home Pagina
 
 ##### Koffie Pagina
 - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
 - **Check to see that keyboard focus order matches the visual layout.**
 - **
+  
+  #### Detail Pagina
+  * Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.
+In de footer komt bij de social media logo's geen focus style zoals bij de links.
+
+* Remove invisible focusable elements.
+Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet zichtbaar zijn.
+  
 #### Images
 
 #### Headings
 
 #### Lists
+  
+  #### Detail Pagina
+  * Use list elements (ol, ul, and dl elements) for list content.
+In de header wordt bij de nav geen ul gebruikt en in de footer ook niet.
 
 #### Controls
-
+  
+  #### Detail Pagina
+  *  Provide a skip link and make sure that it is visible when focused.
+Maak gebruik van skip links voor screen readers en keyboard-only gebruikers.
+  
 #### Tables
 
 #### Forms
@@ -338,6 +374,10 @@ Daan: Dit is de huidige score van de Beyco Home Pagina zonder enige optimalisati
 Justin: Dit is de huidige score van de Beyco Koffie Pagina zonder enige optimalisaite
 
 ![Lighthouse Desktop](assets/lighthouse_desktop_beyco_koffie.png)
+  
+  Finn: De huidige score van de Beyco Detail Pagina.
+  ![afbeelding](https://user-images.githubusercontent.com/26089533/139872821-31dd8b4b-8d59-4b95-b138-1154ad54bc5f.png)
+  
 ### Lighthouse Mobile
 
 Daan: Dit is de huidige score van Beyco Home Pagina zonder enige optimalisatie.
@@ -346,7 +386,9 @@ Daan: Dit is de huidige score van Beyco Home Pagina zonder enige optimalisatie.
 Justin: Dit is de huidige score van Beyco Koffie Pagina zonder enige optimalisatie.
 ![Lighthouse Mobile](assets/lighthouse_mobile_beyco_koffie.png)
 
-
+Finn: De huidige score van de Beyco Detail Pagina op mobile.
+  ![afbeelding](https://user-images.githubusercontent.com/26089533/139873260-ad64d57d-83fd-4b5a-923a-0b0bfaa46639.png)
+  
 ## Testen in de zon
 
 We hebben ook nog getest in de zon op te checken op contrast. Op de foto is te zien dat Justin & Daan aan het testen zijn, waarbij Chaan de fotograaf was.
