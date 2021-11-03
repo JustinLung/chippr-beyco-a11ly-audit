@@ -467,19 +467,19 @@ n.v.t.
 
 ##### Detail Pagina
 
--**Check the contrast for all normal-sized text.**
+- **Check the contrast for all normal-sized text.**
   Normal sized text bevat een contrast ratio van 2.55:1 dat is niet voldoende.
  
--**Check the contrast for all large-sized text.**
+- **Check the contrast for all large-sized text.**
   Dik gedrukte teksten bevat een contrast ratio van 21:1 en dat voldoet.
  
--**Check the contrast for all icons.**
+- **Check the contrast for all icons.**
   Icoontjes op de detailpagina bevat een contrast ratio van 4:73:1 en dat voldoet.
  
--**Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.)**
+- **Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.)**
   Ook voor de borders teksten en buttons is contrast ratio 4:73:1 en dat voldoet aan de eis van 3:0:1
  
- -**Check text that overlaps images or video.**
+ - **Check text that overlaps images or video.**
   n.v.t.
  
  -**Check custom ::selection colors.**
@@ -510,20 +510,20 @@ n.v.t.
 
 ##### Detail Pagina
 
--**Check that the site can be rotated to any orientation.**
+- **Check that the site can be rotated to any orientation.**
    De pagina kan over het algemeen goed geroteerd worden en de pagina past zich aan de grote van het scherm. 
    Op de Iphone 12 kan hij op z'n kop niet roteren.
    Alhoewel op de Samsung Tablet 
    de kaart heel klein word weergeven en sommige icoontjes buiten de layout valt.
  
- -**Remove horizontal scrolling**
+ - **Remove horizontal scrolling**
    De pagina kan verticaal gescrolled worden op sommige apparaten wilt het soms ook nog horizontaal bewegen.
    Alhoewel het handig is dat horizontale scrol niet mogelijk moet zijn. Alleen verticaal.
  
- -**Ensure that button and link icons can be activated with ease.**
+ - **Ensure that button and link icons can be activated with ease.**
    Buttons en link iconen zijn goed klikbaar.
 
- -**Ensure sufficient space between interactive items in order to provide a scroll area.**
+ - **Ensure sufficient space between interactive items in order to provide a scroll area.**
    Er is voldoende ruimte om te scrollen voor op de mobiel.
 
 ### Extra Tests
