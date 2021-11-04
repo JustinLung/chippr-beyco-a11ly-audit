@@ -111,6 +111,14 @@ De huidige website van Beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - Zorg ervoor dat je gemakkelijk door de pagina kan tabben. Hou hierbij rekening met dropdown menu's. Voeg ook een skip-link toe en zorg ervoor dat er geen onzichtbare knoppen aanwezig zijn.
 
 - Zorg ervoor dat de pagina toegankelijk is voor screenreaders. Ook hierbij is het van belang dat er een skip link aanwezig is en je gemakkelijk door de pagina kan navigeren door te tabben. Daarnaast moeten image elementen een alt beschrijving hebben.
+De accessibility op desktop, heeft een score van 76. Dit kan echter nog verbeterd worden doormiddel van de volgende punten:
+
+- Buttons hebben geen accesible name. Bij de hamburger menu, is er een button tag aangeroepen, maar zit er geen text in. Om dit op te lossen kan je in die button tekst in zetten. Ook kun je een aria-label gebruiken om dit op te lossen.
+- Image elementen hebben geen alt attributes. Dit is dus niet goed voor de toegankelijkheid.
+- Links hebben geen geldige benaming. Dit houdt in dat er in de a tag geen content bevat.
+- De contrast ratio van de pagina, is niet toegankelijk voor de website.
+
+Dezelfde bevindingen zijn op de mobiele telefoon te zien en heeft ook een accessibility score van 76.
 
 ## Ontoegankelijke punten
 
@@ -134,6 +142,8 @@ De huidige website van Beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - De toetsenbord navigatie is niet toegankelijk. Sommige dropdown menu's zijn niet navigeerbaar met de toetsenbord en er is geen skip link aanwezig.
 
 - Er is geen rekening gehouden met screenreaders. Image elementen hebben geen alt beschrijving en er zijn onzichtbare knoppen aanwezig.
+
+- Na het invoeren van een input veld, krijg je een error message te zien. Deze error message wordt alleen met tekst aangeduid. Dit kan worden verbeterd doormiddel van kleur (Een rooie kleur zou goed zijn om aan te duiden dat er geen zoekresultaten zijn). Hierdoor verbeterd de accessibility voor mensen met een beperking ook.
 
 ### Detail Pagina
 
