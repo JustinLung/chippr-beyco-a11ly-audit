@@ -189,7 +189,7 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in h
   De titel van de homepagina is goed vernoemd. De titel van de homepagina is: Worldwide Coffee Trading Platform - Beyco.
 - **Ensure that viewport zoom is not disabled.**  
   De viewport van de website is niet uitgeschakeld.
-  Hier is de code van de viewport: <meta name="viewport" content="width=device-width,initial-scale=1">
+  Hier is de code van de viewport: ```<meta name="viewport" content="width=device-width,initial-scale=1">```
 - **Use landmark elements to indicate important content regions.**  
   De homepagina heeft geen main met sections daarin. Ze hebben in plaats daarvan alleen divs gebruikt. In plaats van de main hebben ze een div gebruikt met de id root en daarin andere divs gezet.
 
