@@ -173,8 +173,8 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in h
 ##### Home Pagina
 - **Validate your HTML**  
   De website had alleen maar een waarschuwing. De waarschuwing kan je nog een keer zien op deze link in de html validator: https://validator.w3.org/nu/?doc=https%3A%2F%2Ftest.beyco.chippr.dev%2F
-- **Use a lang attribute on the html element.**  
-  De code voor de lang ziet er goed uit. Dit is de code van het lang attribuut van Beyco: <html lang="en-us"></html>.
+- **Use a `lang` attribute on the `html` element.**  
+  De code voor de `lang` ziet er goed uit. Dit is de code van het `lang` attribuut van Beyco: <html lang="en-us"></html>.
 - **Provide a unique title for each page or view.**  
   De titel van de homepagina is goed vernoemd. De titel van de homepagina is: Worldwide Coffee Trading Platform - Beyco.
 - **Ensure that viewport zoom is not disabled.**  
@@ -186,9 +186,9 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in h
   Ze hebben wel een header met daarin een nav en onderin een footer.
 - **Ensure a linear content flow.**  
   De homepagina heeft geen tabindex. Dus dit is niet bij hun van toepassing.
-- **Avoid using the autofocus attribute.**  
-  Beyco heeft geen autofocus gebruikt. Dus dit is niet bij hun van toepassing.
-- **Remove title attribute tooltips.**  
+- **Avoid using the `autofocus` attribute.**  
+  Beyco heeft geen `autofocus` gebruikt. Dus dit is niet bij hun van toepassing.
+- **Remove `title` attribute tooltips.**  
   Beyco heeft geen extra titles. Dus dit is niet bij hun van toepassing.
   
 ##### Koffie Pagina
@@ -197,10 +197,10 @@ De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in h
 ##### Detail Pagina
   
 - **Validate your HTML.**   
-Hij geeft aan dat er geen lang attribute aanwezig is in de HTML start tag. Maar als ik zelf in de inspector kijk zie ik wel een lang attribute staan. Misschien dat lang="en-us" een ongeldige waarde is. Ook kom ik veel lege div elementen tegen in de code. 
-Verder staat er geen heading in de body element. Deze staan overigens wel in de main element. 
+Hij geeft aan dat er geen `lang` attribute aanwezig is in de HTML start tag. Maar als ik zelf in de inspector kijk zie ik wel een `lang` attribute staan. Misschien dat `lang="en-us"` een ongeldige waarde is. Ook kom ik veel lege `div` elementen tegen in de code. 
+Verder staat er geen heading in de `body` element. Deze staan overigens wel in de `main` element. 
 
-- **Avoid using the autofocus attribute.**
+- **Avoid using the `autofocus` attribute.**
 Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de focus zomaar wordt verplaatst. Ook kan het voor mensen met een motorische handicap voor problemen zorgen, omdat het voor hen extra werk kan opleveren om vanuit het autofocusgebied naar andere locaties op de pagina te navigeren.
   
 #### Keyboard
@@ -227,7 +227,7 @@ Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de f
 - **Remove invisible focusable elements.** 
   Helaas zijn niet alle dropdown menu’s navigeerbaar met toetsenbord en zijn er onzichtbare knoppen aanwezig.
   
-#### Detail Pagina
+##### Detail Pagina
  - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
 In de footer komt bij de social media logo's geen focus style zoals bij de links.
 
@@ -275,9 +275,9 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
   ##### Home Pagina
   n.v.t.
 
-  #### Detail Pagina
- - **Use list elements (ol, ul, and dl elements) for list content.**
-In de header wordt bij de nav geen ul gebruikt en in de footer ook niet.
+  ##### Detail Pagina
+ - **Use list elements (`ol`, `ul`, and `dl` elements) for list content.**
+In de header wordt bij de `nav` geen `ul` gebruikt en in de footer ook niet.
 
 ##### Koffie Pagina
 n.v.t.
@@ -297,14 +297,14 @@ n.v.t.
   De homepagina heeft geen links die naar een nieuw tabblad of venster gaan. 
 
 ##### Koffie Pagina
-- **Ensure that controls have :focus states.**
+- **Ensure that controls have `:focus` states.**
   De social media icons in de footer hebben geen focus state.
 - **Use the `<button>` element for buttons.**
   Buttons gebruiken wel een `<button>` element maar hebben geen toegankelijke beschrijving voor screenreaders.
 - **Provide a skip link and make sure that it is visible when focused.**
   Er is geen skip link aanwezig. Met deze hyperlinks – meestal onzichtbaar voor de gemiddelde gebruiker – kunnen gebruikers van een screenreader delen van de pagina overslaan (vandaar ‘skip’) en direct navigeren naar waar bv. het hoofdmenu, de zoekfunctie of juist de content begint.
   
-  #### Detail Pagina
+##### Detail Pagina
 -  **Provide a skip link and make sure that it is visible when focused.**
 Maak gebruik van skip links voor screen readers en keyboard-only gebruikers.
   
@@ -407,7 +407,7 @@ n.v.t.
   Animaties zijn niet te "flashy". Ze worden subtiel afgespeeld.
 - **Provide a mechanism to pause background video.**
   n.v.t
-- **Make sure all animation obeys the prefers-reduced-motion media query.**
+- **Make sure all animation obeys the `prefers-reduced-motion` media query.**
   Animaties worden niet in een prefers-reduced-motion media query gebruikt.
 
 ##### Home Pagina
@@ -423,7 +423,7 @@ n.v.t.
 - **Provide a mechanism to pause background video.**
   n.v.t.
  
-- **Make sure all animation obeys the prefers-reduced-motion media query.**
+- **Make sure all animation obeys the `prefers-reduced-motion` media query.**
   Animaties worden niet weergeven in een prefers-reduced-motion media query.
 
 #### Color contrast
@@ -460,7 +460,7 @@ n.v.t.
   White CTA with green text: De contrast ratio is een 4.5:1. Het voldoet aan de AA resultaat
 - **Check text that overlaps images or video.**
   n.v.t
-- **Check custom ::selection colors.**
+- **Check custom `::selection` colors.**
   n.v.t
 
 ##### Home Pagina
@@ -490,7 +490,7 @@ n.v.t.
  - **Check text that overlaps images or video.**
   n.v.t.
  
- -**Check custom ::selection colors.**
+ -**Check custom `::selection` colors.**
   n.v.t.
 
 #### Mobile and touch
