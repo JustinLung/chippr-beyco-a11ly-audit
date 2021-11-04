@@ -96,7 +96,7 @@ De tools die zijn gebruikt voor deze beoordeling zijn de volgende:
 
 ## Testresultaten en aanbevelingen
 
-De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze score toch te behalen zijn er een paar aanbevelingen.
+De huidige website van Beyco voldoet niet nivea AA van de WCAG 2.1. Om deze score toch te behalen zijn er een paar aanbevelingen.
 
 ### Home Pagina
 
@@ -105,6 +105,12 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - Zorg dat alle elementen van de website altijd in beeld blijven, zelfs als je gaat zoomen.
 - Zorg dat er geen horizontale scroll aanwezig is en dat de content niet naar de zijkant word gepushed op kleine schermen zoals Iphone 5
 - Zorg dat er genoeg scroll ruimte is op mobile.
+
+### Coffee Page
+
+- Zorg ervoor dat je gemakkelijk door de pagina kan tabben. Hou hierbij rekening met dropdown menu's. Voeg ook een skip-link toe en zorg ervoor dat er geen onzichtbare knoppen aanwezig zijn.
+
+- Zorg ervoor dat de pagina toegankelijk is voor screenreaders. Ook hierbij is het van belang dat er een skip link aanwezig is en je gemakkelijk door de pagina kan navigeren door te tabben. Daarnaast moeten image elementen een alt beschrijving hebben.
 
 ## Ontoegankelijke punten
 
@@ -124,6 +130,10 @@ De huidige website van beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 ### Koffie Pagina
 
 - Na het invoeren van een input veld, krijg je een error message te zien. Deze error message wordt alleen met tekst aangeduid. Dit kan worden verbeterd doormiddel van kleur (Een rooie kleur zou goed zijn om aan te duiden dat er geen zoekresultaten zijn). Hierdoor verbeterd de accessibility voor mensen met een beperking ook.
+
+- De toetsenbord navigatie is niet toegankelijk. Sommige dropdown menu's zijn niet navigeerbaar met de toetsenbord en er is geen skip link aanwezig.
+
+- Er is geen rekening gehouden met screenreaders. Image elementen hebben geen alt beschrijving en er zijn onzichtbare knoppen aanwezig.
 
 ### Detail Pagina
 
