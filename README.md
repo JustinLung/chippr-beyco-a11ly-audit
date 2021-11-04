@@ -155,7 +155,7 @@ De huidige website van Beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 - **Use plain language and avoid figures of speech, idioms, and complicated metaphors.**  
   Het lees level moet level 8 zijn. De lees level in deze pagina is 11.17. Dus de lees level 
   van de website is goed.
-- **Make sure that button, a, and label element content is unique and descriptive.**  
+- **Make sure that `button`, `a`, and `label` element content is unique and descriptive.**  
   Daarom is de code van deze button is gefaald: `<button type="button" class="menu-icon-container">`. De class is niet duidelijk genoeg.
 - **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
   De koppen en bodytekst zijn in de css center aligned. Alleen de tekst in de footer en in de menu is standaard left-aligned.
@@ -163,7 +163,7 @@ De huidige website van Beyco voldoet niet nivea AA van de WCAG 2.1. Om deze scor
 ##### Koffie Pagina
 - **Use plain language and avoid figures of speech, idioms, and complicated metaphors.**  
   Het taalgebruik is duidelijk en er worden geen stijlfiguren of metaforen gebruikt.
-- **Make sure that button, a, and label element content is unique and descriptive.**  
+- **Make sure that `button`, `a`, and `label` element content is unique and descriptive.**  
 Sommige buttons zijn wat minder duidelijk; ‘Learn more’ geeft weinig context.
 - **Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages.**  
 De pagina bevat weinig tekst maar ze worden wel links uitgelijnd. Tekst dat in het midden of uitgevuld is uitgelijnd is moeilijk te lezen. Mocht de meertaligheid uitbreiden, zou er voor de Arabische uitwerking een nieuw design moeten worden gemaakt, hierbij moeten de teksten namelijk rechts uitgelijnd zijn.
@@ -226,8 +226,6 @@ Mensen die blind of slechtziend zijn, kunnen gedesoriënteerd raken wanneer de f
   De focus state past binnen de huisstijl.
 - **Remove invisible focusable elements.** 
   Helaas zijn niet alle dropdown menu’s navigeerbaar met toetsenbord en zijn er onzichtbare knoppen aanwezig.
-
-- **
   
 #### Detail Pagina
  - **Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.**
@@ -239,34 +237,34 @@ Bij de iframe van de kaart wordt er een aantal keer getabt op elementen die niet
 #### Images
 
 ##### Home Pagina
-- **Make sure that all img elements have an alt attribute.**
-  BijBeyco heeft geen alt in de foto van de map.
-  Code van de afbeelding zonder alt:
+- **Make sure that all `<img>` elements have an `alt` attribute.**
+  Beyco heeft geen `alt` in de foto van de map.
+  Code van de afbeelding zonder `alt`:
 ```html
 <img src="/static/media/fake-map.2863d4ee.png" alt="" width="100%">`
 ```
 
 ##### Koffie Pagina
-- **Make sure that all img elements have an alt attribute.**
-  De image elementen op deze pagina hebben geen alt. 
-- **For images containing text, make sure the alt description includes the image's text.**
-  Bij afbeeldingen met tekst (zoals logo’s) moet de alt beschrijving ook de tekst die in de afbeelding staat bevatten.
+- **Make sure that all `<img>` elements have an `alt` attribute.**
+  De image elementen op deze pagina hebben geen `alt`. 
+- **For images containing text, make sure the `alt` description includes the image's text.**
+  Bij afbeeldingen met tekst (zoals logo’s) moet de `alt` beschrijving ook de tekst die in de afbeelding staat bevatten.
 
 #### Headings
 
 ##### Home Pagina
 - **Use heading elements to introduce content.**
   De homepagina heeft headings.
-- **Use only one h1 element per page or view.**
-  Er zit alleen maar een h1 element op de homepagina.
+- **Use only one `<h1>` element per page or view.**
+  Er zit alleen maar een `<h1>` element op de homepagina.
 - **Don't skip heading levels.**
-  De kleine kopjes in de "How does it work?" gedeelte zijn h4 in plaats van h3.
+  De kleine kopjes in de "How does it work?" gedeelte zijn `<h4>` in plaats van `<h3>`.
 
 ##### Koffie Pagina
 - **Use heading elements to introduce content.**
   Headings worden goed gebruikt om content de introduceren. 
-- **Use only one h1 element per page or view.**
-  Er is maar 1 h1 element gebruikt op de pagina.
+- **Use only one `<h1>` element per page or view.**
+  Er is maar 1 `<h1>` element gebruikt op de pagina.
 - **Heading elements should be written in a logical sequence.**
   De headings staan in een logische volgorde.
 - **Don't skip heading levels.**
@@ -287,12 +285,12 @@ n.v.t.
 #### Controls
 
 ##### Home Pagina
-- **Use the a element for links.**
+- **Use the `<a>` element for links.**
   De links van de homepagina hebben allemaal een a href.
 - **Ensure that controls have :focus states.**
   Alleen de social media links in de footer hebben geen focus state.
-- **Use the button element for buttons.**
-  De knoppen hebben een button element. Maar zijn niet duidelijk beschreven voor de screenreaders.
+- **Use the `<button>` element for buttons.**
+  De knoppen hebben een `<button>` element. Maar zijn niet duidelijk beschreven voor de screenreaders.
 - **Provide a skip link and make sure that it is visible when focused.**
   De homepagina heeft geen skip content link.
 - **De homepagina heeft geen links die naar een nieuw tabblad of venster gaan.**
@@ -301,8 +299,8 @@ n.v.t.
 ##### Koffie Pagina
 - **Ensure that controls have :focus states.**
   De social media icons in de footer hebben geen focus state.
-- **Use the button element for buttons.**
-  Buttons gebruiken wel een button element maar hebben geen toegankelijke beschrijving voor screenreaders.
+- **Use the `<button>` element for buttons.**
+  Buttons gebruiken wel een `<button>` element maar hebben geen toegankelijke beschrijving voor screenreaders.
 - **Provide a skip link and make sure that it is visible when focused.**
   Er is geen skip link aanwezig. Met deze hyperlinks – meestal onzichtbaar voor de gemiddelde gebruiker – kunnen gebruikers van een screenreader delen van de pagina overslaan (vandaar ‘skip’) en direct navigeren naar waar bv. het hoofdmenu, de zoekfunctie of juist de content begint.
   
